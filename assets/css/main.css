@@ -61,8 +61,6 @@ a {
   font-weight: bold;
   border: 2px solid #0F0A0A;
   box-sizing: border-box;
-  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
-  border-radius: 90px;
 }
 
 .btn:active {
@@ -75,7 +73,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap:57px;
+  gap: 57px;
 }
 
 .main h3 {
@@ -99,4 +97,21 @@ a {
 .profile-image {
   width: 611px;
   height: auto;
+}
+
+.primary {
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+}
+
+.social {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+
+.buttons-group{
+  display: flex;
+  flex-direction:row;
+  gap: 16px;
 }
