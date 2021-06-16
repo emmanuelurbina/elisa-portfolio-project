@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&display=swap');
+:root {
+  --primary: #42E2B8;
+  --black: #0F0A0A;
+}
+
+body {
+  /*Gradient BG*/
+  background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  padding: 27px 128px;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oxygen", sans-serif;
+}
+
+.navbar-logo {
+  font-weight: 900;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-menu {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.link {
+  color: var(--black);
+  opacity: .5;
+}
+
+.active {
+  opacity: 1;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1.25px;
+  padding: 13px 24px;
+  font-size: 14px;
+  color: var(--black);
+  background-color: var(--primary);
+  font-weight: bold;
+  border: 2px solid #0F0A0A;
+  box-sizing: border-box;
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+}
+
+.btn:active {
+  opacity: .9;
+}
+
+.main {
+  margin-top: 75px;
+  font-family: "Oxygen", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:57px;
+}
+
+.main h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.main h2 {
+  margin-top: 100px;
+  font-size: 59px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+.main p {
+  line-height: 26px;
+  letter-spacing: 0.005em;
+}
+
+.profile-image {
+  width: 611px;
+  height: auto;
+}
