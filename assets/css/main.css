@@ -110,8 +110,29 @@ a {
   font-size: 24px;
 }
 
-.buttons-group{
+.buttons-group {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 16px;
+}
+
+.objective {
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.objective-content>p {
+  font-size: 34px;
+}
+
+.objective-content>h5 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.objective-icon {
+  font-size: 80.52px;
 }
