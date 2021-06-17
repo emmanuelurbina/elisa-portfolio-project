@@ -256,3 +256,49 @@ textarea {
   resize: none;
   font-family: 'Oxygen', sans-serif;
 }
+
+@media screen and (max-width: 900px) {
+  body {
+    padding: 16px;
+  }
+  .navbar {
+    justify-content: space-around;
+    gap: 24px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .main{
+    flex-direction: column-reverse;
+  }
+  .project {
+    margin-top: 16px;
+    flex-direction: column-reverse;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .form-content {
+    width: 100%;
+    height: auto;
+  }
+  .buttons-project {
+    flex-direction: column;
+  }
+  .objective {
+    padding: 0;
+  }
+  .project-title{
+    font-size: 24px;
+  }
+  .testimonial-content{
+    padding:16px;
+  }
+  .testimonial-text{
+    font-size: 16px;
+  }
+  .testimonial-title{
+    font-size: 14px;
+  }
+}
