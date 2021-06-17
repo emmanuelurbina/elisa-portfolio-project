@@ -158,9 +158,8 @@ a {
   background-color: var(--black);
   box-shadow: -4px 4px 0px #FFFFFF;
   display: inline-block;
-  padding:10px;
+  padding: 10px;
   font-size: 34px;
-
 }
 
 .buttons-project {
@@ -196,6 +195,62 @@ a {
   opacity: .7;
 }
 
-.reverse{
+.reverse {
   flex-direction: row-reverse;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  font-family: "Oxygen", sans-serif;
+}
+
+.formulario p {
+  text-align: center;
+}
+
+.form-title {
+  color: var(--primary);
+  background-color: var(--black);
+  box-shadow: -4px 4px 0px #FFFFFF;
+  padding: 10px;
+  font-size: 34px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-content {
+  width: 40%;
+  height: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.required {
+  color: #DA1414;
+}
+
+.input {
+  border: 1px solid #858C94;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+label {
+  padding-left: 16px;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  font-family: 'Oxygen', sans-serif;
 }
