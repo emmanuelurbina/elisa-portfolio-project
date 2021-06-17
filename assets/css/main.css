@@ -79,11 +79,11 @@ a {
 .main h3 {
   font-size: 48px;
   font-weight: 700;
-  line-height: 78px;
+  margin: 0;
 }
 
 .main h2 {
-  margin-top: 100px;
+  margin: 0;
   font-size: 59px;
   font-weight: 700;
   letter-spacing: -0.005em;
@@ -102,6 +102,12 @@ a {
 .primary {
   box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
   border-radius: 90px;
+}
+
+.secondary {
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+  background: transparent;
 }
 
 .social {
@@ -135,4 +141,61 @@ a {
 
 .objective-icon {
   font-size: 80.52px;
+}
+
+.project {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: space-between;
+  font-family: "Oxygen", sans-serif;
+}
+
+.project-title {
+  color: var(--primary);
+  background-color: var(--black);
+  box-shadow: -4px 4px 0px #FFFFFF;
+  display: inline-block;
+  padding:10px;
+  font-size: 34px;
+
+}
+
+.buttons-project {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.testimonial {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.testimonial-content {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 24px;
+  padding: 80px;
+  border-top: solid 2px white;
+  border-left: solid 2px white;
+}
+
+.testimonial-text {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.testimonial-title {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: .7;
+}
+
+.reverse{
+  flex-direction: row-reverse;
 }
