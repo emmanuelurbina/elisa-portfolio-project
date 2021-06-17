@@ -210,6 +210,8 @@ a {
 }
 
 .form-title {
+  text-transform: uppercase;
+  text-align: center;
   color: var(--primary);
   background-color: var(--black);
   box-shadow: -4px 4px 0px #FFFFFF;
