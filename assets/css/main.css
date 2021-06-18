@@ -9,6 +9,7 @@ body {
   background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
   padding: 27px 128px;
   background-repeat: no-repeat;
+  font-family: "Oxygen", sans-serif;
 }
 
 a {
@@ -20,7 +21,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Oxygen", sans-serif;
 }
 
 .navbar-logo {
@@ -69,7 +69,6 @@ a {
 
 .main {
   margin-top: 75px;
-  font-family: "Oxygen", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -150,7 +149,6 @@ a {
   flex-direction: row;
   gap: 24px;
   justify-content: space-between;
-  font-family: "Oxygen", sans-serif;
 }
 
 .project-title {
@@ -202,7 +200,6 @@ a {
 .formulario {
   display: flex;
   justify-content: center;
-  font-family: "Oxygen", sans-serif;
 }
 
 .formulario p {
@@ -268,7 +265,7 @@ textarea {
   .nav-menu {
     display: none;
   }
-  .main{
+  .main {
     flex-direction: column-reverse;
   }
   .project {
@@ -289,16 +286,16 @@ textarea {
   .objective {
     padding: 0;
   }
-  .project-title{
+  .project-title {
     font-size: 24px;
   }
-  .testimonial-content{
-    padding:16px;
+  .testimonial-content {
+    padding: 16px;
   }
-  .testimonial-text{
+  .testimonial-text {
     font-size: 16px;
   }
-  .testimonial-title{
+  .testimonial-title {
     font-size: 14px;
   }
 }
