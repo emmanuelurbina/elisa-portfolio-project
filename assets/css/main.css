@@ -7,7 +7,7 @@
 body {
   /*Gradient BG*/
   background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
-  padding: 27px 128px;
+  padding: 27px 128px 0;
   background-repeat: no-repeat;
   font-family: "Oxygen", sans-serif;
 }
@@ -23,7 +23,7 @@ a {
   align-items: center;
 }
 
-.navbar-logo {
+.navbar-logo, .footer-logo {
   font-weight: 900;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
@@ -171,6 +171,10 @@ a {
   gap: 24px;
 }
 
+.project, .testimonial {
+  padding: 80px 0;
+}
+
 .testimonial {
   text-align: center;
   padding-top: 80px;
@@ -263,6 +267,20 @@ textarea {
   display: inline-block;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1280px) {
+  .form-content {
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 900px) {
   body {
     padding: 16px;
@@ -288,10 +306,6 @@ textarea {
     width: 100%;
     height: auto;
   }
-  .form-content {
-    width: 100%;
-    height: auto;
-  }
   .buttons-project {
     flex-direction: column-reverse;
   }
@@ -309,6 +323,13 @@ textarea {
   }
   .testimonial-title {
     font-size: 14px;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer-logo {
+    display: none;
   }
 }
 
@@ -319,45 +340,24 @@ textarea {
   .show {
     display: none;
   }
+  .project, .testimonial, .objective {
+    padding: 40px 0;
+  }
   .navbar {
     justify-content: space-between;
-    gap: 24px;
   }
   .nav-menu {
     display: flex;
-  }
-  .main {
-    flex-direction: column-reverse;
-  }
-  .project {
-    margin-top: 16px;
-    flex-direction: column-reverse;
-  }
-  .image {
-    width: 100%;
-    height: auto;
   }
   .form-content {
     width: 100%;
     height: auto;
   }
-  .buttons-project {
-    flex-direction: column-reverse;
-  }
-  .objective {
-    padding: 0;
-  }
-  .project-title {
-    font-size: 24px;
-  }
-  .testimonial-content {
-    padding: 16px;
-  }
-  .testimonial-text {
-    font-size: 16px;
-  }
-  .testimonial-title {
-    font-size: 14px;
+  .footer p {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 }
 
@@ -365,47 +365,7 @@ textarea {
   body {
     padding: 16px;
   }
-  .show {
-    display: none;
-  }
-  .navbar {
-    justify-content: space-around;
-    gap: 24px;
-  }
   .nav-menu {
     display: none;
-  }
-  .main {
-    flex-direction: column-reverse;
-  }
-  .project {
-    margin-top: 16px;
-    flex-direction: column-reverse;
-  }
-  .image {
-    width: 100%;
-    height: auto;
-  }
-  .form-content {
-    width: 100%;
-    height: auto;
-  }
-  .buttons-project {
-    flex-direction: column-reverse;
-  }
-  .objective {
-    padding: 0;
-  }
-  .project-title {
-    font-size: 24px;
-  }
-  .testimonial-content {
-    padding: 16px;
-  }
-  .testimonial-text {
-    font-size: 16px;
-  }
-  .testimonial-title {
-    font-size: 14px;
   }
 }
